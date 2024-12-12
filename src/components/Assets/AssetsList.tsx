@@ -42,7 +42,7 @@ const AssetsList = () => {
     resultsPerPage,
   } = useFilters({
     limit: 18,
-    cacheBlacklist: ["name", "serial_number", "qr_code_id"],
+    cacheBlacklist: ["name", "serial_number", "qr_code_i"],
   });
   const [assets, setAssets] = useState([{} as AssetData]);
   const [isLoading, setIsLoading] = useState(false);
